@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Web.Dev</title>
+</head>
+<body>
+    <header id="home" class="bg-[#F2F2F2]">
+        <div class="container">
+            <nav data-aos="fade-up" data-aos-duration="1000" class="flex justify-between items-center pt-[30px] text-[#313131] text-[18px] gap-x-[20px]">
+                <div class="logo font-bold hover:text-[lime] duration-[.3s]">Web.Dev</div>
+                <ul class="flex flex-wrap gap-x-[50px] items-center max-lg:gap-x-[20px] max-md:hidden">
+                    <li><a class="hover:text-[lime] duration-[.3s]" href="#home">Home</a></li>
+                    <li><a class="hover:text-[lime] duration-[.3s]" href="#about">About</a></li>
+                    <li><a class="hover:text-[lime] duration-[.3s]" href="#testimionals">Testimonials</a></li>
+                    <li><a class="hover:text-[lime] duration-[.3s]" href="#contact">Contact</a></li>
+                    <li><a class="hover:text-[lime] duration-[.3s]" href="#">Sign in</a></li>
+                    <button  class="w-[152px] h-[58px] text-[white] rounded-[5px] bg-[#49AD09] hover:bg-[lime] duration-[0.3s] "><a href="#">Sign up</a></button>
+                </ul>
+                <div class="header_menu hidden max-md:block items-center">
+                    <i class='bx bx-menu text-[35px] mt-[5px] text-[#313131] hover:text-[lime]'></i>
+                </div>
+            </nav>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000"class="header_hero  flex justify-between items-center py-[75px] gap-x-[15px] max-md:py-[40px]">
+            <div class="header_img relative max-w-[327px] h-[500px] ml-[9px]  max-md:hidden">
+                <img src="./image/header-left-img1.png" alt="header-img" class="w-[135px] h-[214px] absolute top-[-40px] left-[-9px] ">
+                <img src="./image/header-left-img2.png" alt="header-img" class="w-[100%] h-[100%] ">
+            </div>
+            <div class="header_title max-w-[500px] text-center max-md:mx-auto">
+                <h1 class="max-w-[500px] text-[78px] leading-[80px] font-bold max-lg:text-[65px] max-md:text-[65px] max-md:leading-[60px] max-lg:text-[50px] max-sm:max-w-[400px] max-sm:text-[45px] max-sm:mx-auto max-sm:leading-[50px]">We Develop <span class="text-[#49AD09] font-bold">Shopify</span> sites</h1>
+                <p class="max-w-[492px] text-[#514040] text-[18px] mt-[36px] leading-[26.6px] max-sm:px-[20px] max-md:mt-[25px]">Slingback fabric heels. Thin wraparound ankle strap. Squared heel and toe. Pointed toes. Padded insole with geometrical design. </p>
+                <div class="header_button mt-[63px] flex flex-wrap justify-center gap-x-[37px] gap-y-[20px] max-md:mt-[32px] max-md:px-[20px]">
+                    <button class="w-[225px] h-[58px] text-[18px] rounded-[5px] bg-[#49AD09] text-[white] text-[18px] hover:bg-[lime] duration-[.3s] shadow-[10px_30px_60px_#b4b4b4]"><a href="#contact">Contact Us</a></button>
+                    <button class="text-[18px] text-[#514040] style-und underline text-[#514040] hover:text-[lime] duration-[.3s]"><a href="#">Watch Video</a></button>
+                </div>
+            </div>
+            <div class="header_img h-[617px] max-md:hidden">
+                <img src="./image/header-right-img.png" alt="header-img" class="w-[100%] h-[100%]">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div data-aos="fade-up" data-aos-duration="1000" class="logo_section min-h-[184px] max-w-[1170px] py-[25px] px-[20px] gap-x-[50px] gap-y-[20px] flex items-center justify-between max-lg:flex-wrap max-lg:justify-center">
+            <div class="logo_img h-[33px] w-[138px] cursor-pointer">
+                <img src="./image/chase.svg" alt="logo">
+            </div>
+            <div class="logo_img h-[33px] w-[138px] cursor-pointer">
+                <img src="./image/asana.svg" alt="logo">
+            </div>
+            <div class="logo_img h-[33px] w-[138px] cursor-pointer">
+                <img src="./image/google.svg" alt="logo">
+            </div>
+            <div class="logo_img h-[33px] w-[138px] cursor-pointer">
+                <img src="./image/buzz.svg" alt="logo">
+            </div>
+            <div class="logo_img h-[33px] w-[138px] cursor-pointer">
+                <img src="./image/walmart.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="special">
+        <div class="container">
+            <p data-aos="fade-up" data-aos-duration="1000" class="mt-[120px] text-[18px] text-[#514040] text-center max-md:mt-[80px]">What we Do?</p>
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="mt-[20px] text-[45px] text-[#313131] text-center max-md:text-[40px]">Our Specialization</h2>
+            <div class="special_card max-w-[808px] min-h-[704px] mx-auto mt-[60px] grid grid-cols-2 gap-[40px] max-md:grid-cols-1">
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[384px] min-h-[332px] px-[30px] py-[40px] border-[1px] max-md:mx-auto hover:shadow-[10px_100px_80px_#EDEDED] cursor-pointer">
+                    <div class="cards_title flex items-center">
+                        <img src="./image/w.svg" alt="webflow">
+                        <h3 class="text-[22px] text-[#313131] ml-[15px]">Webflow Development</h3>
+                    </div>
+                    <p class="text-[18px] text-[#514040] leading-[26px] my-[30px]">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+                    <a href="" class="underline text-[#313131] hover:text-[lime] duration-[.3s]">Read More</a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[384px] min-h-[332px] px-[30px] py-[40px] border-[1px] max-md:mx-auto hover:shadow-[10px_100px_80px_#EDEDED] cursor-pointer">
+                    <div class="cards_title flex items-center">
+                        <img src="./image/shopify.svg" alt="shopify">
+                        <h3 class="text-[22px] text-[#313131] ml-[15px]">Shopify Development</h3>
+                    </div>
+                    <p class="text-[18px] text-[#514040] leading-[26px] my-[30px]">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+                    <a href="" class="underline text-[#313131] hover:text-[lime] duration-[.3s]">Read More</a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[384px] min-h-[332px] px-[30px] py-[40px] border-[1px] max-md:mx-auto hover:shadow-[10px_100px_80px_#EDEDED] cursor-pointer">
+                    <div class="cards_title flex items-center">
+                        <img src="./image/figma.svg" alt="figma">
+                        <h3 class="text-[22px] text-[#313131] ml-[15px]">Figma Web Designing</h3>
+                    </div>
+                    <p class="text-[18px] text-[#514040] leading-[26px] my-[30px]">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+                    <a href="" class="underline text-[#313131] hover:text-[lime] duration-[.3s]">Read More</a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[384px] min-h-[332px] px-[30px] py-[40px] border-[1px] max-md:mx-auto hover:shadow-[10px_100px_80px_#EDEDED] cursor-pointer">
+                    <div class="cards_title flex items-center">
+                        <img src="./image/php.svg" alt="php">
+                        <h3 class="text-[22px] text-[#313131] ml-[15px]">Php Development</h3>
+                    </div>
+                    <p class="text-[18px] text-[#514040] leading-[26px] my-[30px]">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+                    <a href="" class="underline text-[#313131] hover:text-[lime] duration-[.3s]">Read More</a>
+                </div>
+            </div>
+            <button data-aos="fade-up" data-aos-duration="1000" class="w-[225px] h-[58px] block mx-auto rounded-[5px] bg-[#49AD09] text-[white] text-[18px] mt-[90px] hover:bg-[lime] duration-[.3s] max-md:mt-[80px] shadow-[10px_30px_60px_#b4b4b4]"><a href="">Learn More</a></button>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <p data-aos="fade-up" data-aos-duration="1000" class="text-[18px] text-[#514040] text-center mt-[140px] max-md:mt-[100px]">Our Work</p>
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="text-[45px] text-[#313131] text-center mt-[20px] max-sm:text-[40px]">Our Portfolio</h2>
+            <div  class="about_card grid grid-cols-2 max-w-[1010px] min-h-[961px] mx-auto mt-[60px] gap-[50px] max-md:grid-cols-1">
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[480px] min-h-[420px] mx-auto">
+                    <div class="cards_img max-w-[480px] h-[360px]">
+                        <img src="./image/about-1.png" alt="about-img" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards_title flex justify-between items-center gap-x-[15px] mt-[24px] min-h-[34px]">
+                        <h3 class="text-[28px] text-[#000000] leading-[32px] max-lg:text-[22px] max-sm:text-[18px]">Fashion Landing page</h3>
+                        <a href="" class="text-[18px] text-[#49AD09] hover:text-[lime] max-lg:text-[16px] max-sm:text-[14px]">View Details</a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[480px] min-h-[420px] mt-[50px] max-md:mt-[0px] mx-auto">
+                    <div class="cards_img max-w-[480px] h-[360px]">
+                        <img src="./image/about-2.png" alt="about-img" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards_title flex justify-between items-center gap-x-[15px] mt-[24px] min-h-[34px]">
+                        <h3 class="text-[28px] text-[#000000] leading-[32px] max-lg:text-[22px] max-sm:text-[18px]">Health & Fitness</h3>
+                        <a href="" class="text-[18px] text-[#49AD09] hover:text-[lime] max-lg:text-[16px] max-sm:text-[14px]">View Details</a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[480px] min-h-[420px] mx-auto">
+                    <div class="cards_img max-w-[480px] h-[360px]">
+                        <img src="./image/about-3.png" alt="about-img" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards_title flex justify-between items-center gap-x-[15px] mt-[24px] min-h-[34px]">
+                        <h3 class="text-[28px] text-[#000000] leading-[32px] max-lg:text-[22px] max-sm:text-[18px]">Furniture Shop</h3>
+                        <a href="" class="text-[18px] text-[#49AD09] hover:text-[lime] max-lg:text-[16px] max-sm:text-[14px]">View Details</a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[480px] min-h-[420px] mt-[50px] max-md:mt-[0px] mx-auto">
+                    <div class="cards_img max-w-[480px] h-[360px]">
+                        <img src="./image/about-4.png" alt="about-img" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards_title flex justify-between gap-x-[15px] items-center mt-[24px] min-h-[34px]">
+                        <h3 class="text-[28px] text-[#000000] leading-[32px] max-lg:text-[22px] max-sm:text-[18px]">IT Solution Provider</h3>
+                        <a href="" class="text-[18px] text-[#49AD09] hover:text-[lime] max-lg:text-[16px] max-sm:text-[14px]">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <button data-aos="fade-up" data-aos-duration="1000" class="w-[225px] h-[58px] block mx-auto rounded-[5px] bg-[#49AD09] text-[white] text-[18px] mt-[90px] hover:bg-[lime] duration-[.3s] max-md:mt-[50px] shadow-[10px_30px_60px_#b4b4b4]"><a href="">All Projects</a></button>
+        </div>
+    </div>
+
+    <div class="testimionals" id="testimionals">
+        <div class="container">
+            <p data-aos="fade-up" data-aos-duration="1000" class="text-[18px] text-[#514040] text-center mt-[140px] max-md:mt-[100px]">Testimonials</p>
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="text-[45px] text-[#313131] text-center mt-[20px] max-sm:text-[40px]">What Customers Say</h2>
+            <div class="test_card max-w-[1170px] mx-auto min-h-[282px] grid grid-cols-3 gap-x-[15px] gap-y-[30px] max-md:grid-cols-1">
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards min-h-[282px] max-w-[380px] mt-[60px] py-[40px] px-[30px] bg-[white] shadow-[5px_10px_10px_#b4b4b4] mx-auto">
+                    <h3 class="text-[14px] font-semibold text-[#32435C]">Superb Work!</h3>
+                    <p class="text-[16px] text-[#6A635B] mt-[20px] leading-[30px] max-md:leading-[22px]">“Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.”</p>
+                    <img class="mt-[20px]" src="./image/stars.svg" alt="stars">
+                    <h4 class="text-[14px] text-[#32435C] mt-[20px] font-semibold">Sabo Masties</h4>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards min-h-[282px] max-w-[380px] mt-[60px] py-[40px] px-[30px] bg-[white] shadow-[5px_10px_10px_#b4b4b4] mx-auto">
+                    <h3 class="text-[14px] font-semibold text-[#32435C]">Superb Work!</h3>
+                    <p class="text-[16px] text-[#6A635B] mt-[20px] leading-[30px] max-md:leading-[22px]">“Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.”</p>
+                    <img class="mt-[20px]" src="./image/stars.svg" alt="stars">
+                    <h4 class="text-[14px] text-[#32435C] mt-[20px] font-semibold">Sabo Masties</h4>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards min-h-[282px] max-w-[380px] mt-[60px] py-[40px] px-[30px] bg-[white] shadow-[5px_10px_10px_#b4b4b4] mx-auto">
+                    <h3 class="text-[14px] font-semibold text-[#32435C]">Superb Work!</h3>
+                    <p class="text-[16px] text-[#6A635B] mt-[20px] leading-[30px] max-md:leading-[22px]">“Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.”</p>
+                    <img class="mt-[20px]" src="./image/stars.svg" alt="stars">
+                    <h4 class="text-[14px] text-[#32435C] mt-[20px] font-semibold">Sabo Masties</h4>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="blok w-[120px] h-[66px] rounded-[70px] bg-[#F2F2F2] text-center content-center gap-x-[5px] mx-auto mt-[50px]">
+                <i class='bx bx-left-arrow-alt text-[25px] text-[black] w-[50px] h-[50px] rounded-[50%] content-center hover:bg-[black] hover:text-[white] cursor-pointer duration-[.3s]'></i>
+                <i class='bx bx-right-arrow-alt text-[25px] text-[black] w-[50px] h-[50px] rounded-[50%] content-center hover:bg-[black] hover:text-[white] cursor-pointer duration-[.3s]'></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="price">
+        <div class="container">
+            <p data-aos="fade-up" data-aos-duration="1000" class="text-[18px] text-[#514040] text-center mt-[140px] max-md:mt-[100px]">Pricing</p>
+            <h2 data-aos="fade-up" data-aos-duration="1000" class="text-[45px] text-[#313131] text-center mt-[20px] max-sm:text-[40px]">Pricing Policy</h2>
+            <div class="price_card grid grid-cols-3 gap-x-[30px] mt-[80px] max-md:grid-cols-1 gap-y-[50px] ">
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[362px] mx-auto min-h-[508px] px-[10px] flex flex-col py-[50px] border-[1px] max-md:px-[40px]">
+                    <h3 class="text-[30px] text-[#313131] text-center max-md:text-[25px]">For Starter</h3>
+                    <h4 class="text-[60px] text-[#313131] mt-[20px] text-center max-md:text-[45px]">$1499</h4>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Feedback Categorization</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Features prioritization</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Real-time collaboration</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Feedback loop notifications</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Essential dev tools integrations</p>
+                    </div>
+                    <button class="w-[200px] text-[black] h-[55px] rounded-[5px] border-[1px] hover:text-[white] mx-auto mt-[50px] hover:bg-[#49AD09] shadow-[2px_30px_60px_#b4b4b4] max-md:w-[180px]"><a href="">Request Demo</a></button>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[362px] min-h-[508px] mx-auto px-[10px] flex flex-col py-[50px] border-[1px] max-md:px-[40px]">
+                    <h3 class="text-[30px] text-[#313131] text-center max-md:text-[25px]">For Teams</h3>
+                    <h4 class="text-[60px] text-[#313131] mt-[20px] text-center max-md:text-[45px]">$2999</h4>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Feedback Categorization</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Features prioritization</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Real-time collaboration</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Feedback loop notifications</p>
+                    </div>
+                    <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                        <i class='bx bxs-badge-check'></i>
+                        <p class="ml-[16px]">Essential dev tools integrations</p>
+                    </div>
+                    <button class="w-[200px] text-[black] h-[55px] rounded-[5px] border-[1px] hover:text-[white] mx-auto mt-[50px] hover:bg-[#49AD09] shadow-[2px_30px_60px_#b4b4b4] max-md:w-[180px]"><a href="">Request Demo</a></button>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="cards max-w-[362px] min-h-[508px] px-[10px] mx-auto flex flex-col justify-between  py-[50px] border-[1px] max-md:px-[40px]">
+                    <h3 class="text-[30px] text-[#313131] text-center max-md:text-[25px] ">For Company</h3>
+                    <h4 class="text-[60px] text-[#313131] mt-[-50px] max-lg:mt-[-70px] text-center max-md:mt-[20px] max-md:text-[45px]">Custom</h4>
+                    <div class="box-p">
+                        <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                            <i class='bx bxs-badge-check'></i>
+                            <p class="ml-[16px]">Feedback Categorization</p>
+                        </div>
+                        <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                            <i class='bx bxs-badge-check'></i>
+                            <p class="ml-[16px]">Feedback loop notifications</p>
+                        </div>
+                        <div class="parametrs max-lg:ml-[10px] flex ml-[50px] mt-[20px] text-[#313131]">
+                            <i class='bx bxs-badge-check'></i>
+                            <p class="ml-[16px]">Essential dev tools integrations</p>
+                        </div>
+                    </div>
+                    <button class="w-[200px] text-[black] h-[55px] rounded-[5px] border-[1px] hover:text-[white] mx-auto  hover:bg-[#49AD09] shadow-[2px_30px_60px_#b4b4b4] max-md:mt-[50px] max-md:w-[180px]"><a href="">Request Demo</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <h3 data-aos="fade-up" data-aos-duration="1000" class="max-w-[425px] text-center text-[45px] text-[#313131] mt-[140px] mx-auto max-md:text-[40px] leading-[50px] max-md:max-w-[380px]">Need a little more
+                home to grow?</h3>
+                <button data-aos="fade-up" data-aos-duration="1000" class="w-[200px] text-[white] grid content-center bg-[#49AD09] h-[55px] rounded-[5px] border-[1px] mx-auto mt-[50px] hover:bg-[lime] shadow-[2px_30px_60px_#b4b4b4] max-md:w-[180px]"><a href="">Request Demo</a></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_section flex justify-between gap-[30px] mt-[120px] py-[20px] flex-wrap">
+                <div data-aos="fade-up" data-aos-duration="1000" class="footer_part">
+                    <div class="logo text-[25px] text-[#313131] font-bold">Web.Dev</div>
+                    <p class="max-w-[236px] text-[#313131] text-[16px] mt-[35px]">You'll find your next home loan valu you prefer.</p>
+                    <div class="footer_icons flex gap-x-[15px] mt-[60px]">
+                        <i class='bx bxl-telegram w-[28px] h-[28px] bg-[#b4b4b4] text-[black] rounded-[5px] text-center content-center hover:bg-[lime]'></i>
+                        <i class='bx bxl-facebook w-[28px] h-[28px] bg-[#b4b4b4] text-[black] rounded-[5px] text-center content-center hover:bg-[lime]'></i>
+                        <i class='bx bxl-twitter w-[28px] h-[28px] bg-[#b4b4b4] text-[black] rounded-[5px] text-center content-center hover:bg-[lime]'></i>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="footer_part">
+                    <h3 class="text-[20px] text-[#1C1C1D] ">Resources</h3>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Our Agents</p>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Member Stories</p>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Video</p>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Free trial</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="footer_part">
+                    <h3 class="text-[20px] text-[#1C1C1D] ">Company</h3>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Patnerships</p>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Terms of use</p>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Privacy</p>
+                    <p class="mt-[30px] text-[#313131] text-[16px] ">Sitemap</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="footer_part">
+                    <h3 class="text-[20px] text-[#1C1C1D] ">Get in touch</h3>
+                    <div class="for_input  ">
+                        <input type="email" placeholder="Enter Your Email" class="mt-[30px] w-[174px] border-none outline-none text-[black] h-[40px] px-[5px] bg-[#F2F2F2]" > <i class="bx bx-right-arrow-circle h-[40px] text-[black] bg-[#F2F2F2] content-center w-[40px] text-center ml-[-10px] hover:text-[lime]"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
